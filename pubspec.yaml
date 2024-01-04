@@ -1,0 +1,70 @@
+name: lokesh_s_e_commerce
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_rating_bar: ^4.0.1
+  smooth_page_indicator: ^1.0.0+2
+  carousel_slider: ^4.0.0
+  flutter_staggered_grid_view: ^0.4.1
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratItalicThin.ttf
+          weight: 100
+        - asset: assets/fonts/MontserratRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratLight.ttf
+          weight: 300
+    - family: Libre Caslon Text
+      fonts: 
+        - asset: assets/fonts/LibreCaslonTextBold.ttf
+          weight: 700
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSansRomanMedium.ttf
+          weight: 500
